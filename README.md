@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is to save movies as favorites for users
 
-Things you may want to cover:
+## User Stories
 
-* Ruby version
+```
+  When a user visits movie index they can see all movies in alphabetical order by title.
 
-* System dependencies
+  On the movie index the user sees a header with the title of the most favorited movie.
 
-* Configuration
+  Below the header for the most favorited movie the user sees the count of users that have favorited the movie and the movie description.
 
-* Database creation
+  On the movie index the user sees a header with the title of the least favorited movie.
 
-* Database initialization
+  Below the header for the least favorited movie the user sees the count of the users that have favorited the movie and the movie description.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
