@@ -5,7 +5,7 @@ class Movie < ApplicationRecord
     order(:title)
   end
 
-  def self.most_favorited_book
-    
+  def most_favorited_book
+    reviews.order(:rating)
   end
 end
